@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.traffic-light {
+    width: 50px;
+    margin: 20px;
+    padding: 10px;
+    background: black;
+    border-radius: 10px;
+}
+
+.light {
+    width: 50px;
+    height: 50px;
+    margin: 5px auto;
+    background: gray;
+    border-radius: 50%;
+    opacity: 0.3;
+}
+
+.light.active {
+    opacity: 1;
+}
+
+.light.red.active {
+    background: red;
+}
+
+.light.yellow.active {
+    background: yellow;
+}
+
+.light.green.active {
+    background: green;
+}

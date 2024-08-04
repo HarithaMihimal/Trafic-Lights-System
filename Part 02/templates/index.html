@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Traffic Light System</title>
+</head>
+<body>
+    <div id="north_south" class="traffic-light">
+        <div id="north_south_red" class="light red"></div>
+        <div id="north_south_yellow" class="light yellow"></div>
+        <div id="north_south_green" class="light green"></div>
+    </div>
+    <div id="south_north" class="traffic-light">
+        <div id="south_north_red" class="light red"></div>
+        <div id="south_north_yellow" class="light yellow"></div>
+        <div id="south_north_green" class="light green"></div>
+    </div>
+    <div id="east_west" class="traffic-light">
+        <div id="east_west_red" class="light red"></div>
+        <div id="east_west_yellow" class="light yellow"></div>
+        <div id="east_west_green" class="light green"></div>
+    </div>
+    <div id="west_east" class="traffic-light">
+        <div id="west_east_red" class="light red"></div>
+        <div id="west_east_yellow" class="light yellow"></div>
+        <div id="west_east_green" class="light green"></div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
